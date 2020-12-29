@@ -1,0 +1,21 @@
+[2020-12-29T15:30:43.407693] Using urllib.request Python 3.0 or later
+Streaming log file azureml-logs/60_control_log.txt
+Starting the daemon thread to refresh tokens in background for process with pid = 80895
+Running: ['/bin/bash', '/private/var/folders/hm/k4qb5nfs5mn49dkfzy1ysfjw0000gn/T/azureml_runs/mslearn-diabetes_1609255840_bce1796e/azureml-environment-setup/conda_env_checker.sh']
+Found materialized conda environment in: /Users/theo/.azureml/envs/azureml_da3e97fcb51801118b8e80207f3e01ad
+
+
+Running: ['/Users/theo/.azureml/envs/azureml_da3e97fcb51801118b8e80207f3e01ad/bin/python', 'azureml-setup/run_script.py', '/Users/theo/.azureml/envs/azureml_da3e97fcb51801118b8e80207f3e01ad/bin/python', 'azureml-setup/context_manager_injector.py', '-i', 'ProjectPythonPath:context_managers.ProjectPythonPath', '-i', 'RunHistory:context_managers.RunHistory', '-i', 'TrackUserError:context_managers.TrackUserError', 'diabetes_experiment.py']
+[2020-12-29T15:30:43.679564] Logging experiment running status in history service.
+Streaming log file azureml-logs/70_driver_log.txt
+Starting the daemon thread to refresh tokens in background for process with pid = 80900
+Script process exited with code 0
+Uploading driver log...
+Finalizing run...
+[2020-12-29T15:31:59.471796] The timeout can be adjusted using AZUREML_TELEMETRY_TIMEOUT_SEC environment variable
+
+Script process exited with code 0
+
+
+
+Uploading control log...
